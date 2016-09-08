@@ -1,0 +1,72 @@
+header {
+	
+	.form_results { 
+		background-color: white; 
+		font-size: 18px; 
+		padding: 10px 0px; 
+		width: 100%; 
+		text-align: center; 
+		font-family: arial, sans-serif; 
+	}
+
+
+	h1, a, p { color: #FFF; }
+	.upperHead {
+		padding-top: 20px;
+		display: fixed;
+		top: 0;
+
+		.brand { float: left; }
+
+		nav {
+			margin-top: 8px;
+			float: right;
+			li { 
+				display: inline-block; 
+				margin-right: 40px;
+
+				a { font-size: 22px; }
+			}
+			li:last-child { margin-right: 0px; }
+		}
+	}
+	.email {
+		padding-top: 5px;
+		font-size: 12px;
+		font-size: 1.2rem;
+		font-family: arial, sans-serif;
+	}
+	#header_img { 
+		position: fixed;
+		top: 0;
+		left: 0;
+		min-width: 100%;
+		min-height: 100%;
+		z-index: -100;
+	}
+	.nav-inner {
+		padding: 115px 0px 200px 0px;
+	}
+	a{
+		text-decoration: none;
+
+	}
+	.container{
+		position: relative;
+
+		#hero {
+			padding: 200px 0px 200px 0px;
+			line-height: 30px;
+			text-align: center;
+			p{
+				font-size: 20px;
+				font-size: 2rem;
+			}
+		}
+		i { color: #FFF; font-size: 40px; font-size: 4rem; display: block; margin: 0px auto; text-align: center; margin-bottom: 20px;}
+	}
+}
+
+@media screen and (max-width: 600px){
+	nav { display: none; }
+}
